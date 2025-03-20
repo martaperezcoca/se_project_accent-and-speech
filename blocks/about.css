@@ -1,0 +1,46 @@
+.about {
+  background-color: #155437;
+  color: #fff;
+  padding: 30px 80px 40px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+  align-items: center;
+}
+
+.about__title {
+  font-family: "Playfair Display", "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.about__text {
+  flex: 1;
+  padding-right: 80px;
+  text-align: left;
+}
+
+.about__paragraph {
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+.about__image {
+  flex: 1;
+  max-width: 400px;
+  height: 384px;
+}

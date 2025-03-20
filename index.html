@@ -18,7 +18,7 @@
     <title>Accent & Speech</title>
   </head>
   <body>
-    <div class="page-wrapper">
+    <div class="page">
       <header class="header">
         <nav class="header__nav">
           <img
@@ -27,7 +27,6 @@
             class="header__logo"
           />
           <ul class="header__nav-links">
-            <li><a href="#home-section" class="header__nav-link">Home</a></li>
             <li><a href="#about-section" class="header__nav-link">About</a></li>
             <li>
               <a href="#services-section" class="header__nav-link">Services</a>
@@ -48,12 +47,8 @@
           <p class="header__description">
             Helping voices shine with clarity and confidence.
           </p>
+          <button type="button" class="header__button">Learn more!</button>
         </div>
-        <img
-          src="./images/homepage.png"
-          alt="Speech pathologist with client illustration"
-          class="header__image"
-        />
         <div class="header__footer">
           <div>
             <p class="header__paragraph">Hours:</p>
@@ -64,30 +59,47 @@
         </div>
       </header>
       <main class="content">
-        <section
-          id="home-section"
-          class="page__section page__section--home"
-        ></section>
-        <section
-          id="about-section"
-          class="page__section page__section--about"
-        ></section>
-        <section
-          id="services-section"
-          class="page__section page__section--services"
-        ></section>
-        <section
-          id="faq-section"
-          class="page__section page__section--faq"
-        ></section>
+        <section id="about-section" class="about page__section">
+          <h2 class="about__title">About</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <p class="about__paragraph">
+                Welcome to Accent & Speech, where Dianne Holly, a dedicated
+                speech pathologist with over 20 years of experience, helps
+                clients gain confidence in their communication skills.
+                Specializing in accent modification and speech clarity, Dianne
+                provides personalized, one-on-one sessions tailored to each
+                individual's needs.
+              </p>
+              <p class="about__paragraph">
+                Whether you're a professional looking to enhance your speech, an
+                actor refining pronunciation, or simply someone who wants to
+                speak with greater clarity and confidence, Dianne’s approach
+                ensures effective and supportive coaching. Sessions are
+                conducted online via Zoom, making expert speech therapy
+                accessible from anywhere.
+              </p>
+              <p class="about__paragraph">
+                Through structured exercises, practical strategies, and expert
+                guidance, Dianne helps clients achieve **clearer, more natural
+                speech patterns**. Book a session today and take the first step
+                toward speaking with confidence!
+              </p>
+            </div>
+            <img
+              src="./images/homepage.png"
+              alt="Speech pathologist with client illustration"
+              class="about__image"
+            />
+          </div>
+        </section>
+        <section id="services-section" class="services page__section"></section>
+        <section id="faq-section" class="faq page__section"></section>
         <section
           id="testimonials-section"
-          class="page__section page__section--testimonials"
+          class="testimonials page__section"
         ></section>
-        <section
-          id="contact-section"
-          class="page__section page__section--contact"
-        ></section>
+        <section id="contact-section" class="contact page__section"></section>
       </main>
       <footer class="footer"></footer>
     </div>
