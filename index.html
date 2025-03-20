@@ -47,7 +47,13 @@
           <p class="header__description">
             Helping voices shine with clarity and confidence.
           </p>
-          <button type="button" class="header__button">Learn more!</button>
+          <button
+            type="button"
+            class="header__button"
+            onclick="location.href='#about-section'"
+          >
+            Learn more!
+          </button>
         </div>
         <div class="header__footer">
           <div>
@@ -81,8 +87,8 @@
               </p>
               <p class="about__paragraph">
                 Through structured exercises, practical strategies, and expert
-                guidance, Dianne helps clients achieve **clearer, more natural
-                speech patterns**. Book a session today and take the first step
+                guidance, Dianne helps clients achieve clearer, more natural
+                speech patterns. Book a session today and take the first step
                 toward speaking with confidence!
               </p>
             </div>
@@ -93,7 +99,46 @@
             />
           </div>
         </section>
-        <section id="services-section" class="services page__section"></section>
+        <section id="services-section" class="services page__section">
+          <h2 class="services__title">Services</h2>
+          <!-- TODO - Use JavaScript to create a template of the boxes-->
+          <div class="services__content">
+            <div class="service__box">
+              <h3 class="service__box-title">Accent & Pronunciation</h3>
+              <button class="service-box__button">Learn More</button>
+            </div>
+            <div class="service__box">
+              <h3 class="service__box-title">
+                Professional & Corporate Speech
+              </h3>
+              <button class="service-box__button">Learn More</button>
+            </div>
+            <div class="service__box">
+              <h3 class="service__box-title">
+                Speech Therapy for Disabilities & Medical Conditions
+              </h3>
+              <button class="service-box__button">Learn More</button>
+            </div>
+            <div class="service__box">
+              <h3 class="service__box-title">
+                Social & Everyday Communication
+              </h3>
+              <button class="service-box__button">Learn More</button>
+            </div>
+            <div class="service__box">
+              <h3 class="service__box-title">
+                Rehabilitation & Medical Speech
+              </h3>
+              <button class="service-box__button">Learn More</button>
+            </div>
+            <div class="service__box">
+              <h3 class="service__box-title">
+                Online Speech Therapy & Consultation
+              </h3>
+              <button class="service-box__button">Learn More</button>
+            </div>
+          </div>
+        </section>
         <section id="faq-section" class="faq page__section"></section>
         <section
           id="testimonials-section"
@@ -102,6 +147,10 @@
         <section id="contact-section" class="contact page__section"></section>
       </main>
       <footer class="footer"></footer>
+      <!-- TODO - Finish writing modal and tasting
+      <div class="modal" id="service-modal">
+        <h2 class="modal__title">Learn more</h2>
+      </div> -->
     </div>
   </body>
 </html>

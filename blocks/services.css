@@ -1,0 +1,79 @@
+.services {
+  background-color: #e9d7b3;
+  color: black;
+  padding: 100px 80px 215px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+  align-items: center;
+}
+
+.services__title {
+  font-family: "Playfair Display", "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  margin: 0 0 80px;
+}
+
+.services__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service__box {
+  padding: 60px 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.service__box:nth-child(1) {
+  background-color: #155437;
+  color: white;
+}
+
+.service__box:nth-child(2) {
+  background-color: #d5b16c;
+  color: black;
+}
+
+.service__box:nth-child(3) {
+  background-color: #d99152;
+  color: black;
+}
+
+.service__box:nth-child(4) {
+  background-color: #f6f2e6;
+  /color: white;
+}
+
+.service__box:nth-child(5) {
+  background-color: #7b3e2f;
+  color: white;
+}
+
+.service__box:nth-child(6) {
+  background-color: #4a7c59;
+  color: black;
+}
+
+.service__box:hover {
+  transform: scale(1.05);
+}
+
+.service__box-title {
+  font-family: "Montserrat", "Playfair Display";
+  line-height: normal;
+}
+
+.service-box__button {
+}
