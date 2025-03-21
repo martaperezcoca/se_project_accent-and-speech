@@ -1,0 +1,37 @@
+.faq {
+  background-color: white;
+  color: black;
+  padding: 100px 80px 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
+.faq__title {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 40px;
+}
+
+.faq__questionmark-title {
+  font-family: "Playfair Display", "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 1;
+  margin: 0;
+}
+
+.faq__title-text {
+  font-family: "Playfair Display", "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.2;
+  margin: 0 0 0 40px;
+  align-content: center;
+}
+
+.faq__item {
+}
