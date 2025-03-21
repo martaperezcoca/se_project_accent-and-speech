@@ -15,6 +15,7 @@
       href="./images/favicon_A&S.svg"
       type="image/svg"
     />
+
     <title>Accent & Speech</title>
   </head>
   <body>
@@ -106,84 +107,161 @@
           <template id="service-template">
             <div class="service__box">
               <h3 class="service__box-title"></h3>
-              <button class="service__box-button" type="button">
-                Learn More
-              </button>
+              <p class="service__box-description"></p>
             </div>
           </template>
         </section>
         <section id="faq-section" class="faq page__section">
-          <div class="faq__title">
-            <p class="faq__questionmark-title">?</p>
-            <h2 class="faq__title-text">Frequently Asked Questions</h2>
-          </div>
-          <div class="faq__item">
-            <h3 class="faq__question">1. What ages do you work with?</h3>
-            <p class="faq__answer">
-              We provide speech therapy services for both children and adults,
-              tailoring each session to meet individual needs and goals.
-            </p>
-          </div>
-          <div class="faq__item">
-            <h3 class="faq__question">
-              2. Do I need a referral to start speech therapy?
-            </h3>
-            <p class="faq__answer">
-              No referral is necessary. You can contact us directly to schedule
-              an evaluation or to discuss your concerns.
-            </p>
-          </div>
-          <div class="faq__item">
-            <h3 class="faq__question">
-              3. What happens during a speech therapy session?
-            </h3>
-            <p class="faq__answer">
-              Sessions are personalized and may include exercises for
-              articulation, language development, voice, fluency, or social
-              communication, depending on the client’s needs.
-            </p>
-          </div>
-          <div class="faq__item">
-            <h3 class="faq__question">
-              4. Do you offer virtual (teletherapy) sessions?
-            </h3>
-            <p class="faq__answer">
-              Yes, we offer both in-person and virtual therapy sessions to
-              provide flexible options for our clients.
-            </p>
-          </div>
-          <div class="faq__item">
-            <h3 class="faq__question">5. How long does each session last?</h3>
-            <p class="faq__answer">
-              Most sessions are 30 to 60 minutes, depending on the treatment
-              plan and client’s needs.
-            </p>
-          </div>
-          <div class="faq__item">
-            <h3 class="faq__question">
-              6. How do I know if my child needs speech therapy?
-            </h3>
-            <p class="faq__answer">
-              If you have concerns about your child’s communication, language
-              development, or speech clarity, an evaluation can help determine
-              if therapy is recommended.
-            </p>
+          <h2 class="faq__title">Frequently Asked Questions</h2>
+          <div class="faq__question-box">
+            <p class="faq__questionmark">?</p>
+            <div class="faq__questions">
+              <div class="faq__item">
+                <h3 class="faq__question">1. What ages do you work with?</h3>
+                <p class="faq__answer">
+                  We provide speech therapy services for both children and
+                  adults, tailoring each session to meet individual needs and
+                  goals.
+                </p>
+              </div>
+              <div class="faq__item">
+                <h3 class="faq__question">
+                  2. Do I need a referral to start speech therapy?
+                </h3>
+                <p class="faq__answer">
+                  No referral is necessary. You can contact us directly to
+                  schedule an evaluation or to discuss your concerns.
+                </p>
+              </div>
+              <div class="faq__item">
+                <h3 class="faq__question">
+                  3. What happens during a speech therapy session?
+                </h3>
+                <p class="faq__answer">
+                  Sessions are personalized and may include exercises for
+                  articulation, language development, voice, fluency, or social
+                  communication, depending on the client’s needs.
+                </p>
+              </div>
+              <div class="faq__item">
+                <h3 class="faq__question">
+                  4. Do you offer virtual (teletherapy) sessions?
+                </h3>
+                <p class="faq__answer">
+                  Yes, we offer both in-person and virtual therapy sessions to
+                  provide flexible options for our clients.
+                </p>
+              </div>
+              <div class="faq__item">
+                <h3 class="faq__question">
+                  5. How long does each session last?
+                </h3>
+                <p class="faq__answer">
+                  Most sessions are 30 to 60 minutes, depending on the treatment
+                  plan and client’s needs.
+                </p>
+              </div>
+              <div class="faq__item">
+                <h3 class="faq__question">
+                  6. How do I know if my child needs speech therapy?
+                </h3>
+                <p class="faq__answer">
+                  If you have concerns about your child’s communication,
+                  language development, or speech clarity, an evaluation can
+                  help determine if therapy is recommended.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
-        <section
-          id="testimonials-section"
-          class="testimonials page__section"
-        ></section>
-        <section id="contact-section" class="contact page__section"></section>
+        <section id="testimonials-section" class="testimonials page__section">
+          <h2 class="testimonials__title">Testimonials</h2>
+          <div class="testimonials__grid">
+            <div class="testimonials__card">
+              “Dianne is amazing. My child's speech has improved so much!” MM
+            </div>
+            <div class="testimonials__card">
+              “We felt truly supported throughout the process.” KH
+            </div>
+            <div class="testimonials__card">
+              “Professional, kind, and knowledgeable!” BT
+            </div>
+            <div class="testimonials__card">
+              “Thanks to Dianne, I now feel confident speaking in meetings. Her
+              guidance has been life-changing!” AW
+            </div>
+            <div class="testimonials__card">
+              “Dianne helped me improve my pronunciation for acting roles. I now
+              feel more natural and expressive on camera.” MP
+            </div>
+
+            <div class="testimonials__card">
+              “Her sessions are warm, supportive, and incredibly effective. I’ve
+              noticed a huge difference in my everyday conversations.” PC
+            </div>
+          </div>
+        </section>
+        <section id="contact-section" class="contact page__section">
+          <h2 class="contact__title">Contact</h2>
+          <form class="contact__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">
+                Name *
+                <input
+                  type="text"
+                  class="form__input"
+                  id="name-input"
+                  placeholder="Name Surname"
+                  required
+                />
+              </label>
+              <label for="number-input" class="form__label">
+                Phone Number *
+                <input
+                  type="phone number"
+                  class="form__input"
+                  id="number-input"
+                  placeholder="555 555 5555"
+                  required
+                />
+              </label>
+              <label for="email-input" class="form__label">
+                Your email *
+                <input
+                  type="email"
+                  class="form__input"
+                  id="email-input"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+              <label for="text-input" class="form__label">
+                Message *
+                <input
+                  type="text"
+                  class="form__input"
+                  id="text-input"
+                  required
+                />
+              </label>
+              <button class="form__button">Book a Free Consultation</button>
+              <label
+                for="checkbox-input"
+                class="form__label form__label_type_checkbox"
+              >
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  id="checkbox-input"
+                  required
+                />
+                I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
-    </div>
-    <div class="modal" id="service-modal">
-      <div class="modal__container">
-        <button type="button" class="modal__close"></button>
-        <h3 class="modal__title"></h3>
-        <p class="modal__description"></p>
-      </div>
     </div>
     <script defer src="./scripts/index.js"></script>
   </body>

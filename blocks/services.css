@@ -79,6 +79,12 @@
   line-height: normal;
 }
 
+.service__box-description {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: inherit;
+}
 .service__box-button {
   margin-top: auto;
   margin-left: auto;

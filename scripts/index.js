@@ -31,18 +31,14 @@ const services = [
 // Service Elements
 const serviceContainer = document.querySelector("#services-container");
 const serviceTemplate = document.querySelector("#service-template");
-// Modal Elements
-const modal = document.querySelector("#service-modal");
-const modalTitle = modal.querySelector(".modal__title");
-const modalDescription = modal.querySelector(".modal__description");
-const modalCloseButton = modal.querySelector(".modal__close");
 
 function getServiceElement(data) {
   const serviceEl = serviceTemplate.content.cloneNode(true);
   const titleEl = serviceEl.querySelector(".service__box-title");
-  const buttonEl = serviceEl.querySelector(".service__box-button");
+  const descriptionEl = serviceEl.querySelector(".service__box-description");
 
   titleEl.textContent = data.title;
+  descriptionEl.textContent = data.description;
 
   return serviceEl;
 }
@@ -51,5 +47,3 @@ services.forEach((service) => {
   const element = getServiceElement(service);
   serviceContainer.appendChild(element);
 });
-
-// TODO - MODAL

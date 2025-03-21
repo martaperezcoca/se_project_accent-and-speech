@@ -1,0 +1,19 @@
+.contact {
+  padding: 100px 0 120px;
+  background-color: #e9d7b3;
+}
+
+.contact__title {
+  font-family: "Playfair Display", "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.contact__form {
+  margin: 0 auto;
+}
