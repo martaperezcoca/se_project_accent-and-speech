@@ -2,7 +2,7 @@
   background-color: #e9d7b3;
   color: black;
   padding: 100px 80px 215px;
-  height: 600px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   z-index: 0;
@@ -29,11 +29,15 @@
 }
 
 .service__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 60px 40px;
   border-radius: 10px;
   text-align: center;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
+  min-height: 200px;
 }
 
 .service__box:nth-child(1) {
@@ -42,7 +46,7 @@
 }
 
 .service__box:nth-child(2) {
-  background-color: #d5b16c;
+  background-color: #cf9220;
   color: black;
 }
 
@@ -75,5 +79,25 @@
   line-height: normal;
 }
 
-.service-box__button {
+.service__box-button {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  background-color: #d5b16c;
+  border-radius: 8px;
+  width: 149px;
+  height: 52px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.service__box-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
