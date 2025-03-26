@@ -1,2 +1,70 @@
 /* TODO - ADD FOOTER,
 ADD MOBILE LAYOUT */
+.footer {
+  padding: 100px 80px 215px;
+  background-color: #155437;
+  color: #fff;
+  padding: 60px 80px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 150px;
+  height: 150px;
+}
+
+.footer__social-heading {
+  margin: 0 0 20px;
+  font-family: "Montserrat", "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__social-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Montserrat", "Playfair Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  transition: opacity 0.5s;
+}
+
+.footer__social-link:hover {
+  opacity: 0.7;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0;
+  font-family: "Montserrat", "Playfair Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
